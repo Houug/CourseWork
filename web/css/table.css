@@ -1,0 +1,29 @@
+table {
+  margin-top: 2px;
+  padding: 0;
+  max-width: 100%;
+  min-width: 100%;
+}
+tr {
+  padding: 0;
+  margin: 0;
+}
+th {
+  background-color: #efdfc1;
+  position: sticky;
+  top: 49px;
+  z-index: 10;
+  font-weight: normal;
+  color: black;
+  padding: 10px 15px;
+  border: 1px solid black;
+  margin: 0;
+}
+td {
+  color: #669;
+  border-top: 1px solid #e8edff;
+  padding: 10px 15px;
+}
+tr:hover td {
+  background: #e8edff;
+}
